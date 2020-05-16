@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <form >
+        <p>
+            <label for="R">(R) Vermelho:</label>
+            <input id="R" type="range" min="0" max="255">
+            <input type="text" name="inputR" id="inputR"disabled value="0">
+        </p>
+        <p>
+            <label for="G">(G) Verde:   </label>
+            <input id="G" type="range" min="0" max="255">
+            <input type="text" name="inputG" id="inputG"disabled value="0">
+        </p>
+        <p>
+            <label for="B">(B) Azul:</label>
+            <input id="B" type="range"  min="0" max="255">
+            <input type="text" name="inputB" id="inputB"disabled value="0">
+        </p>
+    </form>
+
+    <div>
+        <textarea name="bloco-color" id="bloco-color" cols="30" rows="10" ></textarea>
+    </div>
+    
+</body>
+</html>
